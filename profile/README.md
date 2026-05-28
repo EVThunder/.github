@@ -17,24 +17,11 @@
 
 ---
 
-## 📁 프로젝트 구조
-
-| 프로젝트                 | 설명                                   | 담당자         |
-| ------------------------ | -------------------------------------- | -------------- |
-| **Main-BMS-System**      | 메인 BMS 제어 로직 (TriCore 기반)      | 강현수         |
-| **Sub-BMS-System**       | 서브 BMS 제어 로직 (TriCore 기반)      | 강현수         |
-| **BMS-Simulator-System** | BMS 시뮬레이션 및 통신 테스트 (Python) | 강현수         |
-| **BMS-Unity-Display**    | 배터리 상태 표시 UI (Unity)            | 강현수         |
-| **UDS_Tool**             | UDS 진단통신 도구                      | 이무석, 장혜나 |
-| **OTA**                  | OTA 업데이트 시스템                    | 황선안, 김정연 |
-
----
-
 ## 👥 팀 구성
 
 ### BMS 시스템 개발
 
-- **강현수** (`@kang-hyun-su`)
+- **강현수** (`@rgtuu`)
   - Main-BMS-System 개발
   - Sub-BMS-System 개발
   - BMS-Simulator-System 개발
@@ -42,16 +29,16 @@
 
 ### UDS 진단통신
 
-- **이무석** (`@lee-mu-seok`)
-- **장혜나** (`@jang-hye-na`)
+- **이무석** (`@leemuseok`)
+- **장혜나** (`@hannah0227`)
   - UDS_Tool 개발
   - UDS 프로토콜 구현
   - 진단통신 인터페이스 개발
 
 ### OTA 업데이트 시스템
 
-- **황선안** (`@hwang-sun-an`)
-- **김정연** (`@kim-jung-yeon`)
+- **황선안** (`@sernan96`)
+- **김정연** (`@kjy0916`)
   - OTA 업데이트 엔진 개발
   - TriCore OTA 구현 (OTA_TC375)
   - Windows OTA 구현 (OTA_Win)
